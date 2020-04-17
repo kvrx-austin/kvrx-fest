@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Schedule | KVRX Fest</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/js/fullcalendar/fullcalendar.min.css">
+    <link href="/css/the-big-picture.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom" style="background-color: #ED5464;">
+        <div class="container text-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand d-md-none" style="display:none" href="/">KVRX FEST</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lineup">LINEUP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/schedule">SCHEDULE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/maps">MAPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sponsors">SPONSORS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://kvrxfest.eventbrite.com">BUY TICKETS →</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <aside class="aside left">
+            <div id="kvrxfest">
+                <a href="/">
+                    <h1>KVRX FEST</h1>
+                </a>
+                <div id="disappear">
+                    <p class="b">May 10-11th
+                        <br> Austin, TX </p>
+                </div>
+            </div>
+        </aside>
+
+        <aside class="aside right">
+            <h2>SCHEDULE</h2>
+                	<div class="flr-wrap">
+                	<div class="body">
+       					<center><button class="schedule-date-tab schedule-active" value="2019-05-10">FRIDAY</button>
+        				<button class="schedule-date-tab" value="2019-05-11">SATURDAY</button></p>
+        			
+				<p>	
+                <select id="stages">
+                    <option value="a" selected>
+                        Cheer Up Charlies Outside
+                    </option>
+                    <option value="b">
+                        Cheer Up Charlies Inside
+                    </option>
+                    <option value="c">
+                        Symphony Square
+                    </option>
+                </select></p></center></div>
+                </div>
+                
+            <div id="calendar"></div>
+
+            <div id="socials">
+                <a href="https://www.facebook.com/kvrxaustin/" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="https://www.twitter.com/kvrx/" class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="https://www.instagram.com/kvrxaustin/" class="fa fa-instagram" aria-hidden="true"></a>
+                <a href="https://www.kvrx.org" class="fa fa-headphones" aria-hidden="true"></a>
+            </div>
+        </aside>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="/js/navbrand.js"></script>
+    <script src='/js/fullcalendar/lib/moment.min.js'></script>
+    <script src="/js/fullcalendar/fullcalendar.js"></script>
+    <script src="/js/fullcalendar/gcal.js"></script>
+    <script src="/js/fullcalendar/scheduler.js"></script>
+    <script src="/js/calendar.js"></script>
+</body>
+
+</html>
